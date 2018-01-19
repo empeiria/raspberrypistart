@@ -1,21 +1,10 @@
-There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+##### Erster Login: raspberry - raspberrz
+Beim ersten Login ist ein Benutzername und Passwort voreingestellt, das erstmal geändert werden muss. Doch dazu muss man sich einmalig Anmelden.
+Benutzername ist „pi“ und Passwort „raspberry“. Hier kann es schon zum ersten Problem kommen. Ich habe das verzweifelt mehrmals eingegeben, bis ich gemerkt habe, dass standardmässig das englische Tastaturlayout eingestellt ist auf dem die beiden Buchstaben „y“ und „z“ vertauscht sind. Um sich einzuloggen muss man also auf „z“ drücken für das „y“ vom Passwort „raspberry“.
 
-    if (isAwesome){
-      return true
-    }
-
-GitHub also supports something called code fencing, which allows for multiple lines without indentation:
-
+##### Benutzername und Passwort ändern:
+Am einfachsten geht dies über die grafische Oberfläche des Konfigurationswerkzeugs. Dies startet man mit
+```python
+sudo raspi-config
 ```
-if (isAwesome){
-  return true
-}
-```
-
-And if you'd like to use syntax highlighting, include the language:
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
+(auch hier findet sich bei englischem Tastaturlayout der „-„ auf der Taste „ß“
